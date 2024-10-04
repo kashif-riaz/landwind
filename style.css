@@ -1,0 +1,17 @@
+.swiper-button-prev:after {
+  display: none !important;
+}
+
+.swiper-button-next:after {
+  display: none !important;
+}
+
+/* Default state (collapsed) */
+.accordion-header[aria-expanded="false"] .accordion-title {
+  color: #6b7280 !important; /* custom grey color when not active */
+}
+
+/* Active state (expanded) */
+.accordion-header[aria-expanded="true"] .accordion-title {
+  color: #111928 !important; /* custom black color when active */
+}
